@@ -46,7 +46,7 @@ endef
 
 define Package/libgst1-rtsp-server
 	$(call Package/gst1-rtsp-server/Default)
-	DEPENDS:=+glib2 +gstreamer1 +gst1-plugins-base
+	DEPENDS:=+glib2 +gstreamer1 +gstreamer1-plugins-base
 endef
 
 define Package/libgst1-rtsp-server/description
